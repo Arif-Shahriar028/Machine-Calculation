@@ -16,7 +16,7 @@ If you using android studio, then
 * Edit the version in menifest file
 * run in android studio
 
-### Prerequsite 
+### Prerequisite 
 * An android mobile of minimum 512 mb ram and 1 gb storage
 <p align = "center">
   <img src="https://user-images.githubusercontent.com/61360727/97668299-d8905700-1aab-11eb-8614-e1b06128f3f4.jpg" data-canonical-       src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="250" height="500" />
