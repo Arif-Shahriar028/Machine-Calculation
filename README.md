@@ -19,7 +19,7 @@ If you using android studio, then
 ### Prerequsite 
 * An android mobile of minimum 512 mb ram and 1 gb storage
 
-![Screenshot_2020-10-30-12-27-52-043_com example productionmanager](https://user-images.githubusercontent.com/61360727/97668299-d8905700-1aab-11eb-8614-e1b06128f3f4.jpg)
+![Screenshot_2020-10-30-12-27-52-043_com example productionmanager](https://user-images.githubusercontent.com/61360727/97668299-d8905700-1aab-11eb-8614-e1b06128f3f4.jpg = 250x250)
 
 
 This is the home page of this app
