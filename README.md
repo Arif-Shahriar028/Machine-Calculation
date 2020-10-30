@@ -18,3 +18,9 @@ If you using android studio, then
 
 ### Prerequsite 
 * An android mobile of minimum 512 mb ram and 1 gb storage
+
+
+https://github.com/Arif-Shahriar028/Machine-Calculator/issues/1#issue-732921232
+
+This is the home page of this app
+
