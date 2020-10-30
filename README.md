@@ -19,12 +19,10 @@ If you using android studio, then
 ### Prerequsite 
 * An android mobile of minimum 512 mb ram and 1 gb storage
 
-![Screenshot_2020-10-30-12-27-52-043_com example productionmanager](https://user-images.githubusercontent.com/61360727/97668299-d8905700-1aab-11eb-8614-e1b06128f3f4.jpg)
-
+<img src="https://user-images.githubusercontent.com/61360727/97668299-d8905700-1aab-11eb-8614-e1b06128f3f4.jpg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 This is the home page of this app
 
-
-![Screenshot_2020-10-30-12-27-56-781_com example productionmanager](https://user-images.githubusercontent.com/61360727/97668465-391f9400-1aac-11eb-805d-595b6bf75a4e.jpg)
+<img src="https://user-images.githubusercontent.com/61360727/97668465-391f9400-1aac-11eb-805d-595b6bf75a4e.jpg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 Second page of this app
