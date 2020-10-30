@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Production Calculation and Machine distribution"
+            android:layout_margin="15dp"
+            android:textSize="16sp"
+            android:background="@drawable/heading_round_shape"
+            android:backgroundTint="#9FA8DA"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="#FEFEFE"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="7"
+            android:layout_marginTop="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total Machine"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/round_shape"
+                    android:backgroundTint="#303F9F"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+                <EditText
+                    android:id="@+id/totalMachineId"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/white_round_shape"
+                    android:layout_marginLeft="15dp"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Working hour per day"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/round_shape"
+                    android:backgroundTint="#303F9F"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+                <EditText
+                    android:id="@+id/workingHourId"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/white_round_shape"
+                    android:layout_marginLeft="15dp"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hr"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginLeft="2dp"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="SAM of Front part"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/round_shape"
+                    android:backgroundTint="#303F9F"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+                <EditText
+                    android:id="@+id/frontPartId"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/white_round_shape"
+                    android:layout_marginLeft="15dp"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:inputType="number"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="min"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginLeft="2dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="SAM of Back part"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/round_shape"
+                    android:backgroundTint="#303F9F"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+                <EditText
+                    android:id="@+id/backPartId"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/white_round_shape"
+                    android:layout_marginLeft="15dp"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="min"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginLeft="2dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="SAM of Sleeve part"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/round_shape"
+                    android:backgroundTint="#303F9F"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+                <EditText
+                    android:id="@+id/sleevePartId"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/white_round_shape"
+                    android:layout_marginLeft="15dp"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="min"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginLeft="2dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="SAM of Neck part"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="@drawable/round_shape"
+                    android:backgroundTint="#303F9F"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+                <EditText
+                    android:id="@+id/neckPartId"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/white_round_shape"
+                    android:layout_marginLeft="15dp"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:inputType="number"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="min"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginLeft="2dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/resultButtonId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Result -->"
+            android:backgroundTint="#96CF54"
+            />
+    </LinearLayout>
+
+</ScrollView>
