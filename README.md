@@ -17,7 +17,7 @@ If you using android studio, then
 * run in android studio
 
 ### Prerequisite 
-* An android mobile of minimum 512 mb ram and 1 gb storage
+*  An android mobile of minimum 512 mb ram and 1 gb storage
 <p align = "center">
 This is the home page of this app </p>
 <p align = "center">
