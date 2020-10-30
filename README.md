@@ -24,3 +24,7 @@ If you using android studio, then
 
 This is the home page of this app
 
+
+![Screenshot_2020-10-30-12-27-56-781_com example productionmanager](https://user-images.githubusercontent.com/61360727/97668465-391f9400-1aac-11eb-805d-595b6bf75a4e.jpg)
+
+Second page of this app
