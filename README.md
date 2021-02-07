@@ -1,4 +1,4 @@
-# Machine-Calculation
+# Machine-Calculations
 
 This a app like a calculator which perform a mathmatical solution of industrial production
 
